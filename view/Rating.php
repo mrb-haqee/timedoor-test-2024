@@ -4,7 +4,7 @@ if (isset($_GET['author_id'])) {
     $selectedAuthorId = $_GET['author_id'];
 
     // Get data book by author_id
-    $sqlBooks = "SELECT id, title FROM books WHERE author_id = :author_id";
+    $sqlBooks = "SELECT id, title FROM books WHERE author_id = :author_id ORDER BY title";
     $stmtBooks = $pdo->prepare($sqlBooks);
     $stmtBooks->bindParam(':author_id', $selectedAuthorId);
     $stmtBooks->execute();

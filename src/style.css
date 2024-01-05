@@ -29,11 +29,13 @@ nav button {
   height: 2rem;
   width: 7rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 nav button.active {
   background-color: aqua;
   color: black;
+  cursor: pointer;
 }
 
 section {
@@ -68,4 +70,8 @@ section form {
 
 form button {
   height: 2em;
+}
+
+select {
+  cursor: pointer;
 }
