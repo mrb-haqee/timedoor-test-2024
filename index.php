@@ -120,7 +120,7 @@ require_once(ROOT_DIR . '/view/Rating.php');
                 <div>
                     <label for="author-name">Author Name : </label>
                     <select name="author_id" id="author-name">
-                        <option value="" disabled selected>Choice Author</option>
+                        <option value="" disabled selected>Select Author</option>
                         <?php
                         while ($row = $stmtAuthors->fetch(PDO::FETCH_ASSOC)) {
                         ?>
@@ -133,7 +133,7 @@ require_once(ROOT_DIR . '/view/Rating.php');
                 <div>
                     <label for="book-name">Book Name : </label>
                     <select name="book_id" id="book-name">
-                        <option value="" disabled selected>Choice Author First!</option>
+                        <option value="" disabled selected>Select the Author First!</option>
                     </select>
                 </div>
                 <div>
