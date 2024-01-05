@@ -14,7 +14,7 @@ cd /timedoor-test-2024
 3. install some dependencies by copying the following commands in the terminal
 
 ```bash
-   composer install
+composer install
 ```
 
 4. create a new file .env and provide data like .env.example
@@ -22,13 +22,13 @@ cd /timedoor-test-2024
 5. generate dummy data with the following command
 
 ```bash
-   php dummy.php
+php dummy.php
 ```
 
 6. run the server with the following command
 
 ```bash
-   php -S 127.0.0.1:8000
+php -S 127.0.0.1:8000
 ```
 
 then open the web page on
